@@ -9,16 +9,11 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.jhulio.moviefreak.MainActivity">
 
-    <GridView
-        android:id="@+id/gridview_movies"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:columnWidth="100dp"
-        android:gravity="center"
-        android:numColumns="auto_fit"
-        android:stretchMode="columnWidth"
-        android:clickable="true"
-        />
+   <fragment
+       android:id="@+id/fragment_movies"
+       android:name="com.example.jhulio.moviefreak.MoviesFragment"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"/>
 
 
 </RelativeLayout>

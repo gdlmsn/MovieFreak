@@ -8,6 +8,5 @@
         android:layout_width="100dp"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
-        android:id="@+id/grid_item_movie_imageview"
-        />
+        android:id="@+id/grid_item_movie_imageview"/>
 </LinearLayout>
