@@ -30,10 +30,12 @@ public class MoviesFragment extends Fragment {
     //private OnFragmentInteractionListener mListener;
     private static final String LOG_TAG = MoviesFragment.class.getSimpleName();
 
+
+
     private GridView mGridView;
     private GridViewAdapter mGridAdapter;
     private ArrayList<MoviesGridItem> mGridData;
-    private String FEED_URL = "http://javatechig.com/?json=get_recent_posts&count=45";
+    private String FEED_URL = "";
 
     public MoviesFragment() {
         // Required empty public constructor
